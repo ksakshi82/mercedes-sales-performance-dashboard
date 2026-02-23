@@ -1,84 +1,133 @@
-# 🚗 Mercedes Sales Performance Dashboard (Excel)
+# 🚗 Mercedes-Benz Sales Performance Dashboard (2022–2025)
 
 ## 📌 Project Overview
-This project is an interactive Sales Performance Dashboard built using Microsoft Excel to analyze Mercedes car sales data. 
+This project presents an interactive **Sales Performance Dashboard** built in Microsoft Excel to analyze Mercedes-Benz sales data from 2022 to 2025.
 
-The dashboard transforms raw sales data into meaningful insights by tracking revenue, sales quantity, top-performing models, and regional performance.
+The dashboard transforms raw sales data into meaningful business insights by tracking revenue, profit, sales volume, profit margin, model performance, regional distribution, and EV vs Non-EV trends.
+
+It is designed to help management quickly evaluate performance and make data-driven business decisions.
 
 ---
 
-## 🎯 Objective
-The main objective of this project is to:
-- Analyze total sales and revenue
+## 📊 Dashboard Preview
+
+![Dashboard Preview](screenshots/dashboard_overview.png)
+
+---
+
+## 🎯 Business Objectives
+- Analyze total revenue and total profit
+- Track unit sales performance
+- Monitor average profit margin
+- Compare EV vs Non-EV sales
 - Identify top-performing car models
-- Compare regional performance
-- Track monthly sales trends
-- Provide business insights for decision-making
+- Analyze state-wise and region-wise performance
+- Track monthly revenue trends
 
 ---
 
-## 🛠 Tools & Features Used
+## 🛠 Tools & Techniques Used
 - Microsoft Excel
 - Pivot Tables
 - Pivot Charts
-- Slicers
+- Slicers (Year, Segment, Region)
 - Conditional Formatting
-- Excel Formulas (SUM, IF, COUNTIFS, AVERAGE)
+- Data Cleaning & Structuring
+- Excel Functions (SUM, COUNT, IF, AVERAGE, etc.)
 
 ---
 
-## 📊 Key Performance Indicators (KPIs)
-- Total Sales Quantity
-- Total Revenue
-- Average Revenue per Model
-- Top Performing Model
-- Best Performing Region
-- Monthly Sales Trend
+## 📈 Key Performance Indicators (KPIs)
+- 💰 Total Revenue: ₹ 28,319 Cr
+- 💵 Total Profit: ₹ 8,052 Cr
+- 🚘 Units Sold: 1499
+- 📊 Average Profit Margin: 28.38%
 
 ---
 
-## 📈 Dashboard Features
-- Interactive filters using slicers
-- Dynamic charts that update automatically
-- Clean and professional layout
-- Easy-to-understand performance summary
+## 📊 Dashboard Features
+
+### 1️⃣ Model-wise Profit vs Revenue
+Compares revenue and profit across different car models to identify high-performing models.
+
+### 2️⃣ Monthly Revenue Trend
+Tracks revenue growth from January to December to identify peak sales periods.
+
+### 3️⃣ Segment-wise Sales Distribution
+Breakdown of sales across:
+- SUV
+- Sedan
+- Electric
+
+### 4️⃣ State-wise Sales Performance
+Highlights top-performing states like West Bengal, Maharashtra, and Tamil Nadu.
+
+### 5️⃣ EV vs Non-EV Sales Comparison
+Analyzes performance trends between electric and non-electric vehicles from 2022–2025.
+
+### 6️⃣ Interactive Filters
+Users can filter data dynamically using:
+- Year
+- Segment
+- Region
 
 ---
 
 ## 📂 Dataset Details
-The dataset includes:
+The dataset includes the following columns:
+- Invoice ID
+- Order Date
+- Year
+- Month
 - Car Model
-- Sales Quantity
-- Revenue
+- Segment
+- Type (Electric / Non-Electric)
+- Customer Type
+- Sales Channel
+- Finance Type & Provider
 - Region
-- Date (Month & Year)
+- State
+- City
+- Revenue
+- Cost
+- Profit
+- Profit Margin %
 
 This dataset is used for analytical and learning purposes.
 
 ---
 
 ## 🔍 Key Insights
-- Certain premium models contribute significantly to total revenue.
-- Sales show peak growth in specific months.
-- Some regions consistently outperform others.
-- Revenue contribution is uneven across models.
+- SUV segment contributes significantly to total revenue.
+- Certain premium models generate higher profit margins.
+- Some states consistently outperform others in revenue generation.
+- EV sales show gradual growth across years.
+- Revenue peaks during specific months indicating seasonal demand.
+
+---
+
+## 📈 Business Recommendations
+- Increase marketing focus on high-profit SUV models.
+- Promote EV vehicles in high-performing urban regions.
+- Invest more in regions showing consistent growth.
+- Analyze seasonal demand patterns for inventory planning.
 
 ---
 
 ## 🚀 How to Use
-1. Download the Excel file.
+1. Download the Excel file from this repository.
 2. Open in Microsoft Excel.
 3. Enable editing if required.
-4. Use slicers to explore different performance views.
+4. Use slicers to filter and explore performance insights.
 
 ---
 
-## 💡 Learning Outcome
-Through this project, I improved my skills in:
-- Data cleaning
-- Data visualization
-- Business analysis
-- Dashboard design
+## 💡 Skills Demonstrated
+- Data Cleaning & Preparation
+- Business Performance Analysis
+- Data Visualization
+- Dashboard Design
+- Analytical Thinking
 
 ---
 
@@ -86,3 +135,7 @@ Through this project, I improved my skills in:
 Sakshi Kumbhar  
 Aspiring Data Analyst  
 Skilled in Excel, MySQL, Power BI, Tableau, and Python.
+
+---
+
+⭐ If you found this project useful, feel free to star the repository.
