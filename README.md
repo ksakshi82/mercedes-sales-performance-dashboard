@@ -11,7 +11,7 @@ It is designed to help management quickly evaluate performance and make data-dri
 
 ## 📊 Dashboard Preview
 
-<img width="810" height="462" alt="dashboard_overview" src="https://github.com/user-attachments/assets/582006d0-36bd-4eca-8810-d08f56a9a240" />
+![Dashboard Preview](screenshots/dashboard_overview.png)
 
 
 ---
